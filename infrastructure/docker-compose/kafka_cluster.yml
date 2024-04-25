@@ -1,4 +1,4 @@
-version: "3.7"
+version: '3.7'
 services:
   schema-registry:
     image: confluentinc/cp-schema-registry:${KAFKA_VERSION}
@@ -8,7 +8,7 @@ services:
       - kafka-broker-2
       - kafka-broker-3
     ports:
-      - '8081:8081'
+      - "8081:8081"
     environment:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_CONNECTION_URL: 'zookeeper:2181'
@@ -59,7 +59,7 @@ services:
     environment:
       KAFKA_BROKER_ID: 3
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-1:9092,LISTENER_LOCAL://localhost:39092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka-broker-3:9092,LISTENER_LOCAL://localhost:39092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,LISTENER_LOCAL:PLAINTEXT
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 3
@@ -74,6 +74,6 @@ services:
     ports:
       - "9000:9000"
     environment:
-      zk_hosts: "zookeeper:2181"
+      ZK_HOSTS: "zookeeper:2181"
     networks:
       - ${GLOBAL_NETWORK:-kafka}

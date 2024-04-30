@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.food.ordering.system</groupId>
         <artifactId>infrastructure</artifactId>
+        <groupId>com.food.ordering.system</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>kafka</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>kafka-model</module>
-        <module>kafka-config-data</module>
         <module>kafka-producer</module>
         <module>kafka-consumer</module>
+        <module>kafka-model</module>
+        <module>kafka-config-data</module>
     </modules>
 
     <repositories>
@@ -62,5 +62,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 
 </project>

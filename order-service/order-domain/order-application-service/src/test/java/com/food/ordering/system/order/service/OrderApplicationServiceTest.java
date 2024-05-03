@@ -11,7 +11,7 @@ import com.food.ordering.system.order.service.domain.entity.Product;
 import com.food.ordering.system.order.service.domain.entity.Restaurant;
 import com.food.ordering.system.order.service.domain.exception.OrderDomainException;
 import com.food.ordering.system.order.service.domain.mapper.OrderDataMapper;
-import com.food.ordering.system.order.service.domain.ports.input.service.OrderApplicationService;
+import com.food.ordering.system.order.service.domain.ports.input.service.IOrderApplicationService;
 import com.food.ordering.system.order.service.domain.ports.output.repository.CustomerRepository;
 import com.food.ordering.system.order.service.domain.ports.output.repository.OrderRepository;
 import com.food.ordering.system.order.service.domain.ports.output.repository.RestaurantRepository;
@@ -35,7 +35,7 @@ import static org.mockito.Mockito.when;
 public class OrderApplicationServiceTest {
 
     @Autowired
-    private OrderApplicationService orderApplicationService;
+    private IOrderApplicationService orderApplicationService;
 
     @Autowired
     private OrderDataMapper orderDataMapper;

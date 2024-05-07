@@ -5,7 +5,7 @@ import com.food.ordering.system.order.service.domain.entity.Customer;
 import java.util.Optional;
 import java.util.UUID;
 
-public interface CustomerRepository {
+public interface ICustomerRepository {
 
     Optional<Customer> findCustomer(UUID customerId);
 }

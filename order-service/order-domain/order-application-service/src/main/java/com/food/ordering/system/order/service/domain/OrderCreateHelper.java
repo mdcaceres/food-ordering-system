@@ -7,9 +7,9 @@ import com.food.ordering.system.order.service.domain.entity.Restaurant;
 import com.food.ordering.system.order.service.domain.event.OrderCreatedEvent;
 import com.food.ordering.system.order.service.domain.exception.OrderDomainException;
 import com.food.ordering.system.order.service.domain.mapper.OrderDataMapper;
-import com.food.ordering.system.order.service.domain.ports.output.repository.CustomerRepository;
-import com.food.ordering.system.order.service.domain.ports.output.repository.OrderRepository;
-import com.food.ordering.system.order.service.domain.ports.output.repository.RestaurantRepository;
+import com.food.ordering.system.order.service.domain.ports.output.repository.ICustomerRepository;
+import com.food.ordering.system.order.service.domain.ports.output.repository.IOrderRepository;
+import com.food.ordering.system.order.service.domain.ports.output.repository.IRestaurantRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
@@ -23,18 +23,18 @@ public class OrderCreateHelper {
 
     private final OrderDomainService orderDomainService;
 
-    private final OrderRepository orderRepository;
+    private final IOrderRepository orderRepository;
 
-    private final CustomerRepository customerRepository;
+    private final ICustomerRepository customerRepository;
 
-    private final RestaurantRepository restaurantRepository;
+    private final IRestaurantRepository restaurantRepository;
 
     private final OrderDataMapper orderDataMapper;
 
     public OrderCreateHelper(OrderDomainService orderDomainService,
-                             OrderRepository orderRepository,
-                             CustomerRepository customerRepository,
-                             RestaurantRepository restaurantRepository,
+                             IOrderRepository orderRepository,
+                             ICustomerRepository customerRepository,
+                             IRestaurantRepository restaurantRepository,
                              OrderDataMapper orderDataMapper) {
         this.orderDomainService = orderDomainService;
         this.orderRepository = orderRepository;

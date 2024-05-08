@@ -21,7 +21,7 @@ import java.util.UUID;
 @Component
 public class OrderCreateHelper {
 
-    private final OrderDomainService orderDomainService;
+    private final IOrderDomainService orderDomainService;
 
     private final IOrderRepository orderRepository;
 
@@ -31,7 +31,7 @@ public class OrderCreateHelper {
 
     private final OrderDataMapper orderDataMapper;
 
-    public OrderCreateHelper(OrderDomainService orderDomainService,
+    public OrderCreateHelper(IOrderDomainService orderDomainService,
                              IOrderRepository orderRepository,
                              ICustomerRepository customerRepository,
                              IRestaurantRepository restaurantRepository,

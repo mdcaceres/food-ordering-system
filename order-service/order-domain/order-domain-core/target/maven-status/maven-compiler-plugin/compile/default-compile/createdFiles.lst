@@ -10,10 +10,10 @@ com/food/ordering/system/order/service/domain/event/OrderCreatedEvent.class
 com/food/ordering/system/order/service/domain/valueobject/TrackingId.class
 com/food/ordering/system/order/service/domain/entity/Restaurant$Builder.class
 com/food/ordering/system/order/service/domain/exception/OrderDomainException.class
-com/food/ordering/system/order/service/domain/OrderDomainServiceImpl.class
 com/food/ordering/system/order/service/domain/entity/OrderItem$Builder.class
 com/food/ordering/system/order/service/domain/valueobject/StreetAddress.class
 com/food/ordering/system/order/service/domain/valueobject/OrderItemId.class
 com/food/ordering/system/order/service/domain/entity/Restaurant.class
+com/food/ordering/system/order/service/domain/IOrderDomainService.class
 com/food/ordering/system/order/service/domain/event/OrderPaidEvent.class
 com/food/ordering/system/order/service/domain/entity/Order.class

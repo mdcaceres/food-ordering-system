@@ -1,0 +1,17 @@
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/adapter/CustomerRepository.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/adapter/RestaurantRepository.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/repository/IOrderJpaRepository.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/repository/IRestaurantJpaRepository.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/mapper/OrderDataAccessMapper.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderEntity.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderAddressEntity.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/entity/RestaurantEntity.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/repository/ICustomerJpaRepository.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/adapter/OrderRepository.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/entity/RestaurantEntityId.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/exception/RestaurantDataAccessException.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/mapper/CustomerDataAccessMapper.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/restaurant/mapper/RestaurantDataAccessMapper.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntity.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/order/entity/OrderItemEntityId.java
+/home/mig/IdeaProjects/food-ordering-system/order-service/order-dataaccess/src/main/java/com/food/ordering/system/order/service/dataaccess/customer/entity/CustomerEntity.java

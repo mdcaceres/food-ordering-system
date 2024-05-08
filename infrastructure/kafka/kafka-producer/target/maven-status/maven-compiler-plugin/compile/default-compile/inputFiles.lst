@@ -1,0 +1,4 @@
+/home/mig/IdeaProjects/food-ordering-system/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/service/IKafkaProducer.java
+/home/mig/IdeaProjects/food-ordering-system/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/service/impl/KafkaProducer.java
+/home/mig/IdeaProjects/food-ordering-system/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/exception/KafkaProducerException.java
+/home/mig/IdeaProjects/food-ordering-system/infrastructure/kafka/kafka-producer/src/main/java/com/food/ordering/system/kafka/producer/KafkaProducerConfig.java

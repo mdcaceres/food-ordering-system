@@ -2,7 +2,7 @@ package com.food.ordering.system.order.service.domain.ports.input.message.listen
 
 import com.food.ordering.system.order.service.domain.dto.message.RestaurantApprovalResponse;
 
-public interface RestaurantApprovalResponseMessageListener {
+public interface IRestaurantApprovalResponseMessageListener {
 
     void orderApproved(RestaurantApprovalResponse restaurantApprovalResponse);
 

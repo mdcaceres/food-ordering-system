@@ -1,9 +1,9 @@
 package com.food.ordering.system.order.service.dataaccess.restaurant.adapter;
 
-import com.food.ordering.system.order.service.dataaccess.restaurant.entity.RestaurantEntity;
-import com.food.ordering.system.order.service.dataaccess.restaurant.exception.RestaurantDataAccessException;
+
+import com.food.ordering.system.dataaccess.restaurant.entity.RestaurantEntity;
+import com.food.ordering.system.dataaccess.restaurant.repository.IRestaurantJpaRepository;
 import com.food.ordering.system.order.service.dataaccess.restaurant.mapper.RestaurantDataAccessMapper;
-import com.food.ordering.system.order.service.dataaccess.restaurant.repository.IRestaurantJpaRepository;
 import com.food.ordering.system.order.service.domain.entity.Restaurant;
 import com.food.ordering.system.order.service.domain.ports.output.repository.IRestaurantRepository;
 import org.springframework.stereotype.Component;
@@ -17,7 +17,8 @@ public class RestaurantRepository implements IRestaurantRepository {
     private final IRestaurantJpaRepository restaurantJpaRepository;
     private final RestaurantDataAccessMapper restaurantDataAccessMapper;
 
-    public RestaurantRepository(IRestaurantJpaRepository restaurantJpaRepository, RestaurantDataAccessMapper restaurantDataAccessMapper) {
+    public RestaurantRepository(IRestaurantJpaRepository restaurantJpaRepository,
+                                RestaurantDataAccessMapper restaurantDataAccessMapper) {
         this.restaurantJpaRepository = restaurantJpaRepository;
         this.restaurantDataAccessMapper = restaurantDataAccessMapper;
     }

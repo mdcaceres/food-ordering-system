@@ -1,4 +1,5 @@
 /home/mig/IdeaProjects/food-ordering-system/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobject/PaymentStatus.java
+/home/mig/IdeaProjects/food-ordering-system/common/common-domain/src/main/java/com/food/ordering/system/domain/event/EmptyEvent.java
 /home/mig/IdeaProjects/food-ordering-system/common/common-domain/src/main/java/com/food/ordering/system/domain/entity/AggregateRoot.java
 /home/mig/IdeaProjects/food-ordering-system/common/common-domain/src/main/java/com/food/ordering/system/domain/event/DomainEvent.java
 /home/mig/IdeaProjects/food-ordering-system/common/common-domain/src/main/java/com/food/ordering/system/domain/valueobject/RestaurantOrderStatus.java
